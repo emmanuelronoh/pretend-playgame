@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #f8b400;
+    padding: 10px;
+}
+
+#kitchen, #counter {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin: 20px;
+}
+
+#ingredients, #stove, #order {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.ingredient {
+    margin: 5px;
+    padding: 5px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+#cookArea {
+    border: 1px dashed #000;
+    height: 100px;
+    margin: 10px;
+}
+
+#serveButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

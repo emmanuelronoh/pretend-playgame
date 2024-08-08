@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretend Play Cooking Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pretend Play Cooking Game</h1>
+    </header>
+    <main>
+        <div id="kitchen">
+            <h2>Kitchen</h2>
+            <div id="ingredients">
+                <h3>Ingredients</h3>
+                <div class="ingredient" draggable="true" id="bun">Bun</div>
+                <div class="ingredient" draggable="true" id="patty">Patty</div>
+                <div class="ingredient" draggable="true" id="lettuce">Lettuce</div>
+            </div>
+            <div id="stove">
+                <h3>Stove</h3>
+                <div id="cookArea" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+        </div>
+        <div id="counter">
+            <h2>Order Counter</h2>
+            <div id="order">
+                <h3>Order: Burger</h3>
+            </div>
+            <button id="serveButton">Serve</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
